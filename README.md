@@ -1,4 +1,4 @@
-# TDS Virtual Teaching Assistant
+# CourseBuddy AI: RAG-Enhanced Learning Assistant
 
 A robust Retrieval-Augmented Generation (RAG) API for IIT Madras' Online Degree Program in Data Science, specifically designed to assist students in the Tools in Data Science (TDS) course.
 
