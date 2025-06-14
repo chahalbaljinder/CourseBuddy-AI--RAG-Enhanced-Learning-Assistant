@@ -1,0 +1,71 @@
+# .gitignore for TDS Virtual Teaching Assistant
+
+# Environment variables and secrets - don't commit sensitive information
+.env
+*.env
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Model cache - large files that should be downloaded by users
+model_cache/
+
+# Vector store - will be generated from markdown files
+data/vector_store/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Test-generated images
+test_image*.png
+test_image*.jpg
+test_image*.webp
+
+# Performance results - specific to local testing
+performance_results.json
+
+# Local development
+.python-version
+
+# Keep these important files (explicitly not ignored)
+# !requirements.txt
+# !README.md
+# !main.py
+# !app/
+# !scripts/
+# !tests/
+# !data/discourse_posts/
+# !data/course_content/
+
+# Large data files - comment these if you want to include them in the repo
+# discourse_posts.json
+
+# Documentation - keep this
+# !docs/
