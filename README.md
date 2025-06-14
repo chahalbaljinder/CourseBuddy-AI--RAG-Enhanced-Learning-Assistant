@@ -53,7 +53,7 @@ The system is optimized for performance, with response times well under 30 secon
 1. **Clone this repository**:
    ```bash
    git clone <repository-url>
-   cd pratham_rag_project
+   cd <project-folder>
    ```
 
 2. **Install dependencies**:
